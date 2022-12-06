@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 division</title>
+</head>
+<body>
+    <script>
+        //ejercicio 3 Divison 
+		var dividendo, divisor, cosiente, resto;
+		dividendo = prompt("dame el numero que quieres dividir");
+		divisor = prompt("dime entre cuanto lo quieres dividir");
+
+		cosiente = dividendo/divisor;
+
+		if (cosiente - Math.floor(cosiente) == 0) {
+			console.log("es exacta");
+			console.log ("Cosiente: ",Math.floor(cosiente));
+		}else{
+			console.log("No es exacta");
+			console.log ("Cosiente: ",Math.floor(cosiente));
+			console.log("Resto: ",resto = cosiente - Math.floor(cosiente));
+		}
+    </script>
+</body>
+</html> 

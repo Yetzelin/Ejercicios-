@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+</head>
+<body>
+    <script>
+        //ejercicio 5 IMC
+
+		let imc, edad, peso, altura;
+		edad = prompt("Dime tu edad");
+		peso = prompt("Dime tu peso");
+		altura = prompt("Dime tu altura");
+
+		imc = peso/(altura*altura);
+		//estructura de seleccion
+		if (edad < 45) {
+			if (imc < 22) {
+				console.log("Tu IMC es bajo, para tu edad");
+			}else{
+				console.log("Tu IMC es medio, para tu edad");
+			}
+		}else{
+			if (imc < 22) {
+				console.log("Tu IMC es medio, para tu edad");
+			}else{
+				console.log("Tu IMC es alto, para tu edad");
+			}
+		}
+    </script>
+</body>
+</html>

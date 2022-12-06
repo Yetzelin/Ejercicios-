@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 8 Tiempo de viaje</title>
+</head>
+<body>
+    <script>
+        //Ejercicio 8 
+        let Tiempo_Viaje = 1, Duracion_final = 0;
+        while(Tiempo_Viaje != 0 ){
+            Tiempo_Viaje = parseInt(prompt("Dama la duracion del tramo viajado:"));
+            console.log("Tiempo de viaje: ",Tiempo_Viaje);
+
+            Duracion_final = Duracion_final + Tiempo_Viaje;
+        } 
+        let Tiempo_Total = Duracion_final/60;
+        
+        console.log("La duracion final del viaje es: ",Tiempo_Total.toFixed(2));
+    </script>
+</body>
+</html>
